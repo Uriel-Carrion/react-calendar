@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  nginx-react:
+    container_name: calendar-app
+    image: urielch19/calendar-app:1.0
+    ports:
+      - 80:80
